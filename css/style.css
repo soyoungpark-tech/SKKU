@@ -1,0 +1,49 @@
+@import "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ============ root ============*/
+:root {
+    --border-color: #d8d8d8;
+    --gnb-font-color: #464646;
+    --font-color: #333333;
+    --white-clor: #ffffff;
+    --primary-color: #0064b5;
+    --secondary-color: #004483;
+}
+
+/* ============ reset ============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+a {
+    color: inherit;
+}
+/* ============ common ============*/
+body {
+    color: var(--font-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex {
+    display: flex;
+}
+/* ============ layout ============*/
+.inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+.gnb_wrap {
+    background: var(--white-clor);
+    min-height: 96px;
+    position: relative;
+}
+.utill_wrap {
+    background: var(--secondary-color);
+    height: 41px;
+    overflow: hidden;
+}
